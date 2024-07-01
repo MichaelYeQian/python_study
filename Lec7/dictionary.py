@@ -1,6 +1,7 @@
 #chuangjian dictionary
 prog_dictionary = {
     "Bug" : "program error" , 
+    #key     value
     "loop" :"do something iteratively"
 }
 
@@ -15,7 +16,9 @@ print(prog_dictionary["Bug"])
 prog_dictionary["function"] = "y=kx"
 print(prog_dictionary)
 
-
+#clean wipe
+prog_dictionary={}
+print(prog_dictionary)
 
 
 
