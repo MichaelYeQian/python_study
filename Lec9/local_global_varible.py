@@ -42,3 +42,4 @@ print(f"enemies outside function:{enemies}")
 
 
 
+
