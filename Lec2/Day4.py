@@ -1,7 +1,7 @@
 #random
 import random
 
-num1 = random.randint(1,10) #Can only take values within a given range
+num1 = random.randint(1,10) #Can only take values within a given range , 10 不参与选择
 print(num1)
 
 num2 = random.choice([1,3,7]) #Only the given number will be taken
