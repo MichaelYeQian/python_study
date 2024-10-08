@@ -17,4 +17,33 @@ Sunshangxiang.bark()
 print(Sunshangxiang.name)
 
 
+class Animal():
+#这个class的名字叫做Animal
+
+#'Brown' ' DaHuang
+    def _init_(self, animal_color, animal_name,animal_age) :
+        self.color = animal_color #'Brown'
+        self.name = animal_name #DaHuang
+        self.num_of_legs = 4
+        self.age = animal_age
+
+    def make_sound(self):
+        print(f" {self.name} make sounds, I'm {self.age} years old")
+
+              
+#通过Animal这个class， 我们创建了一个叫做dog的Object/instance
+dog = Animal( 'Brown','DaHuang', 9)
+
+#如果使用呢？
+print(dog.color)
+print(dog. name)
+print (dog.num_of_legs)
+dog.make_sound()
+
+cat = Animal('White', 'lily')
+print(cat.color)
+print( cat.name)
+print(cat.num_of_legs)
+cat.make_sound()
+
 
