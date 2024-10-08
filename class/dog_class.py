@@ -16,12 +16,13 @@ Sunshangxiang = Dog("Sunshangxiang" , 1)
 Sunshangxiang.bark()
 print(Sunshangxiang.name)
 
+print("--------------------------------------------------------------------")
 
 class Animal():
 #这个class的名字叫做Animal
 
 #'Brown' ' DaHuang
-    def _init_(self, animal_color, animal_name,animal_age) :
+    def __init__(self, animal_color, animal_name,animal_age) :
         self.color = animal_color #'Brown'
         self.name = animal_name #DaHuang
         self.num_of_legs = 4
@@ -37,12 +38,12 @@ dog = Animal( 'Brown','DaHuang', 9)
 #如果使用呢？
 print(dog.color)
 print(dog. name)
-print (dog.num_of_legs)
+print(dog.num_of_legs)
 dog.make_sound()
 
 cat = Animal('White', 'lily')
 print(cat.color)
-print( cat.name)
+print(cat.name)
 print(cat.num_of_legs)
 cat.make_sound()
 
