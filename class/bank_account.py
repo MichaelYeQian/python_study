@@ -8,4 +8,4 @@ print(Alex_account.balance)
 print(Alex_account.name)
 m_account = BankAccount("Michael")
 print(m_account.balance)
-print(m_account.name)
+print(m_account.name),
